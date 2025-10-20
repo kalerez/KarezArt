@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #111;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background: #222;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+h1 {
+  color: #ffcc00;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: #ffcc00;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* Seções */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #ffcc00;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+p {
+  font-size: 1.1em;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #ddd;
+}
+
+/* Galeria */
+.galeria {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.galeria img {
+  width: 350px;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(255, 204, 0, 0.4);
+}
+
+.galeria p {
+  margin-top: 10px;
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+/* Redes sociais */
+.redes a {
+  display: inline-block;
+  margin: 15px;
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.redes a:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* Rodapé */
+footer {
+  background: #222;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 0.9em;
+  color: #ccc;
+  border-top: 1px solid #333;
+  margin-top: 40px;
+}
